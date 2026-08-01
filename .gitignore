@@ -36,6 +36,14 @@ yarn-error.log*
 # vercel
 .vercel
 
+# tipos de tesseract.js (descargados automáticamente)
+/spa.traineddata
+
+# datos generados por el pipeline RAG
+/data/extracted.json
+/data/chunks.json
+/data/vectors.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
